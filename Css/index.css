@@ -60,7 +60,7 @@ html {
   transition: all 0.4s;
   cursor: pointer;
 }
-.navbar .btn-one {
+.navbar .link-one .btn-one {
   transition: all 0.4s;
   cursor: pointer;
 }
@@ -81,13 +81,13 @@ html {
   padding: 0.2rem 0rem 0rem 0.2rem;
   margin: 0rem;
 }
-.navbar .btn-one {
+.navbar .link-one .btn-one {
   border: none;
   background: var(--Neutral-200);
   border-radius: 0.8rem;
   font-size: 1.6rem;
 }
-.btn-one .link-one {
+.link-one .btn-one {
   text-decoration: none;
   font-size: 1.6rem;
   color: var(--Neutral-900);
@@ -201,7 +201,7 @@ html {
     height: 4.8rem;
     width: 34.3rem;
   }
-  .navbar .btn-one {
+  .navbar .link-one .btn-one {
     width: 15.4rem;
     height: 4.8rem;
     padding: 1.2rem 1.6rem;
@@ -311,7 +311,7 @@ html {
     height: 5.6rem;
     width: 70.4rem;
   }
-  .navbar .btn-one {
+  .navbar .link-one .btn-one {
     width: 17rem;
     height: 4.8rem;
     padding: 1.6rem 2.4rem;
@@ -425,7 +425,7 @@ html {
     width: 111rem;
     height: 5.6rem;
   }
-  .navbar .btn-one {
+  .navbar .link-one .btn-one {
     width: 17rem;
     height: 5.6rem;
     padding: 1.6rem 2.4rem;
@@ -557,21 +557,23 @@ html {
   .btn .btn-link:focus-visible {
     outline: none;
   }
-
   .down-header .btn-one:hover {
     background-color: var(--Neutral-900);
     color: var(--Neutral-0);
   }
-  .btn-one:hover .link-one {
-    color: inherit;
+  .navbar .link-one :hover {
+    background-color: var(--Neutral-900);
+    color: var(--Neutral-0);
   }
-  .navbar .btn-one:focus {
+  .navbar .link-one .btn-one:focus {
     box-shadow: 0 0 0 0.3rem var(--Neutral-0), 0 0 0 0.5rem var(--Neutral-900);
   }
-  .btn-one:focus-visible {
+  .navbar .link-one .btn-one:focus {
     outline: none;
+    border: none;
   }
-  .btn-one .link-one:focus-visible {
+  .navbar .link-one .btn-one:focus {
     outline: none;
+    border: none;
   }
 }
